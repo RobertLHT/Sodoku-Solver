@@ -235,4 +235,4 @@ If you want to test the algorithm of the solution verification. You can simply i
 6. https://www.geeksforgeeks.org/backtracking-introduction/
 7. https://stackoverflow.com/questions/28282717/display-2d-sudoku-board-in-python
 
-&copy; Haotian Liu 2021/11/17
+&copy;  HL 2021/11/17
