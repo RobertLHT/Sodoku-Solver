@@ -1,0 +1,140 @@
+class sudoku:
+    '''
+    A sudoku object contains a simple sudoku game
+
+    Attributes:
+    
+    ----------
+
+    puzzle : np.array
+
+        This is the original sudoku puzzle board
+
+    answer : np.array
+
+        This is the answer board that user work on
+    
+    solved: bool
+
+        Check whether sudoku has been solved
+    '''
+
+
+    def __init__(self):
+        '''
+        Initialize the puzzle, answer board and solve
+
+        '''
+
+
+    def display_puzzle(self) -> None:
+       ''' Display the puzzle board to user '''
+        
+
+    def display_answer(self, title = "      Your Answer\n") -> None:
+        ''' 
+        Display answer board to user
+        
+        Parameters
+
+        ----------
+        
+        title : str
+
+            Title of the answer board
+
+        '''
+
+
+    def check_answer(self) -> bool:
+        ''' 
+        Check whether the answer is valid and matchs the puzzle board
+        
+        Returns
+
+        ----------
+        
+        bool
+            True for if the answer is valid and matches the puzzle board
+            False for not valid answer
+
+        '''           
+           
+    
+    def check_place(self,row, col, num)-> bool:
+        ''' 
+        Check whether a number can be placed at the given index
+        
+
+        Parameters
+        ----------
+
+        row ： int 
+            Row index, should be 0 - 8
+
+        col : int
+            Column index, should be 0-8
+
+        num : int
+            Number that user want to place, shoud be 1 - 9
+
+
+        Returns
+        -------
+
+        bool
+            True for can place, False for can not
+
+        '''
+
+    
+    def generate_answer(self, row=0, col=0) -> None:
+        ''' 
+        Generate a possible solution of the sudoku puzzle in place
+
+
+        Parameters
+        ----------
+
+        row ： int 
+            Row index that user want to start to find a solution, default is 0. It should be 0 - 8
+
+        col : int
+            Column index that user want to start to find a solution, default is 0. It should be 0 - 8
+
+        '''
+
+    
+    def find_answer(self) -> None:
+        ''' 
+        Generate answer and display it to user if the answer is valid.
+        If the answer is not valid, print an error message
+        '''
+
+    
+    def modify_answer(self,row, col, num) -> None:
+        ''' 
+        Allow user to place a number at given row and column index
+
+
+        Parameters
+        ----------
+
+        row ： int 
+            Row index that user want to place the number. Should be 1 - 9
+
+        col : int
+            Column index that user want to place the number. Should be 1 - 9
+
+        num: int
+            Number that user want to place. Should be 1 - 9
+
+        '''
+
+
+
+    def reset(self) -> None:
+        ''' 
+        Reset answer board
+
+        '''
